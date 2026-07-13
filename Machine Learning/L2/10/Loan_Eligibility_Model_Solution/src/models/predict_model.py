@@ -1,13 +1,17 @@
 # Evaluate modelss
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import accuracy_score, confusion_matrix
 
 # function to predict and evalute
-def evalute_model(model, X_test, y_test):
+def evaluate_model(model, X_test_scaled, y_test):
     
     # prediction
-    y_pred = model.predict(X_test)
+    y_pred = model.predict(X_test_scaled)
 
-    # calculate mae
-    test_mae = mean_absolute_error(y_pred, y_test)
+    # calculate accuracy
+    accuracy = accuracy_score(y_pred, y_test)
 
-    return test_mae
+    # confusion matrix
+    confusion_mat = confusion_matrix(y_test, y_pred)
+
+
+    return accuracy, confusion_mat

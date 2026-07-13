@@ -2,7 +2,7 @@
 from sklearn.metrics import mean_absolute_error
 
 # function to predict and evalute
-def evalute_model(model, X_test, y_test):
+def evaluate_model(model, X_test, y_test):
     
     # prediction
     y_pred = model.predict(X_test)

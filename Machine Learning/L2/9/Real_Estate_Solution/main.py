@@ -17,8 +17,8 @@ if __name__ == "__main__":
     RFmodel, X_test_rf, y_test_rf = train_RFmodel(X,y)
 
     # Evaluate model
-    lr_mae = evalute_model(LRmodel, X_test_lr, y_test_lr)
-    rf_mae = evalute_model(RFmodel, X_test_rf, y_test_rf)
+    lr_mae = evaluate_model(LRmodel, X_test_lr, y_test_lr)
+    rf_mae = evaluate_model(RFmodel, X_test_rf, y_test_rf)
     
     print(f'Linear Regression MAE: ${round(lr_mae,2)}')
     print(f'Random Forest MAE: ${round(rf_mae,2)}')

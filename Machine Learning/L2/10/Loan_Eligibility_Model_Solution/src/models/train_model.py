@@ -1,41 +1,26 @@
 # import libraries
-from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
 import pickle
 
 # linear regression model
-def train_LRmodel(X, y):
-
-    condo = X.property_type_Condo
+def train_DTmodel(X, y):
 
     # split the data to training and testing
-    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, stratify=condo)
+    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, stratify=y)
 
-    # tarin linear model
-    lrmodel = LinearRegression().fit(X_train, y_train)
+    # scae the data
+    scale = MinMaxScaler()
+    Xtrain_scaled = scale.fit_transform(X_train)
+    Xtest_scaled = scale.transform(X_test)
 
-    # save the model
-    with open('models/LRmodel.pkl', 'wb') as file:
-        pickle.dump(lrmodel, file)
-
-    return lrmodel, X_test, y_test
-
-
-# random forest model
-def train_RFmodel(X, y):
-
-    condo = X.property_type_Condo
-    
-    # split the data to training and testing
-    X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.2, stratify= condo)
-
-    # tarin linear model
-    rfmodel = RandomForestRegressor(n_estimators=200, 
-                            criterion='absolute_error').fit(X_train, y_train)
+    # tarin decision tree model
+    dtmodel = DecisionTreeClassifier().fit(Xtrain_scaled, y_train)
 
     # save the model
-    with open('models/RFmodel.pkl', 'wb') as file:
-        pickle.dump(rfmodel, file)
+    with open('models/DTmodel.pkl', 'wb') as file:
+        pickle.dump(dtmodel, file)
 
-    return rfmodel, X_test, y_test
+    return dtmodel, Xtest_scaled, y_test
+
