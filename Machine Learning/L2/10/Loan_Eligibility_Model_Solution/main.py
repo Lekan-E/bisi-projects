@@ -1,26 +1,24 @@
-from src.data.make_dataset import *
-from src.features.build_features import *
-from src.models.train_model import *
-from src.models.predict_model import *
+from src.data.make_dataset import load_and_preprocess_data
+from src.visualization.visualize import plot_correlation_heatmap, plot_feature_importance, plot_confusion_matrix
+from src.features.build_features import create_dummy_vars
+from src.models.train_model import train_DTmodel
+from src.models.predict_model import evaluate_model
 
 if __name__ == "__main__":
+    # Load and preprocess the data
+    data_path = "data/raw/credit.csv"
+    df = load_and_preprocess_data(data_path)
 
-    # laod and preprocess the data
-    datapath = 'data/raw/final.csv'
-    df = load_and__preprocess_data(datapath)
+    # Create dummy variables and separate features and target
+    X, y = create_dummy_vars(df)
 
-    # create x,y variables
-    X, y = create_var(df)
+    # Train the logistic regression model
+    model, X_test_scaled, y_test = train_DTmodel(X, y)
 
-    # train, test split
-    LRmodel, X_test_lr, y_test_lr = train_LRmodel(X,y)
-    RFmodel, X_test_rf, y_test_rf = train_RFmodel(X,y)
-
-    # Evaluate model
-    lr_mae = evalute_model(LRmodel, X_test_lr, y_test_lr)
-    rf_mae = evalute_model(RFmodel, X_test_rf, y_test_rf)
-    
-    print(f'Linear Regression MAE: ${round(lr_mae,2)}')
-    print(f'Random Forest MAE: ${round(rf_mae,2)}')
+    # Evaluate the model
+    plot_feature_importance(model, X)
+    accuracy, confusion_mat = evaluate_model(model, X_test_scaled, y_test)
+    print(f"Accuracy: {accuracy}")
+    print(f"Confusion Matrix:\n{confusion_mat}")
 
 
