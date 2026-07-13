@@ -6,8 +6,8 @@ from src.models.predict_model import *
 if __name__ == "__main__":
 
     # laod and preprocess the data
-    datapath = 'data/raw/final.csv'
-    df = load_and__preprocess_data(datapath)
+    datapath = 'data/raw/house.csv'
+    df = load_and_preprocess_data(datapath)
 
     # create x,y variables
     X, y = create_var(df)
