@@ -1,0 +1,132 @@
+﻿OBJECTID,Year,Reported Date,Occurred Date,Weekday,Offence Category,Sector,Division,Neighbourhood,Ward,Councillor,x,y
+1,2018,1/9/2018 5:00:00 AM,1/9/2018 5:00:00 AM,Wednesday,Murder 1st Dgree,35,East,Hunt Club East - Western Community,Ward 16 - River,Riley Brockington,369457.721100002,5023575.51099946
+2,2018,1/17/2018 5:00:00 AM,1/17/2018 5:00:00 AM,Thursday,Murder 2nd Dgree,15,West,Bells Corners West,Ward 8 - College,Laine Johnson,356864.409,5019946.87009946
+3,2018,1/18/2018 5:00:00 AM,1/18/2018 5:00:00 AM,Friday,Murder 2nd Dgree,23,Central,Centretown,Ward 14 - Somerset,Ariel Troster,368556.709000002,5030905.57099946
+4,2018,2/4/2018 5:00:00 AM,2/4/2018 5:00:00 AM,Monday,Murder 1st Dgree,17,West,Merivale Gardens - Grenfell Glen - Pineglen - Country Place,Ward 9 - Knoxdale-Merivale,Sean Devine,367007.709000002,5021297.49099946
+5,2018,2/10/2018 5:00:00 AM,2/8/2018 5:00:00 AM,Friday,Murder 1st Dgree,31,East,Orléans Chatelaine Village,Ward 1 - Orléans East-Cumberland,Matthew Luloff,383559.907100009,5039618.70109946
+6,2018,2/11/2018 5:00:00 AM,2/5/2018 5:00:00 AM,Tuesday,Murder 1st Dgree,17,West,Cityview - Skyline - Fisher Heights,Ward 9 - Knoxdale-Merivale,Sean Devine,365289.700000003,5025022.52189946
+7,2018,3/4/2018 5:00:00 AM,3/4/2018 5:00:00 AM,Monday,Murder 2nd Dgree,34,East,Billings Bridge - Alta Vista,Ward 17 - Capital,Shawn Menard,369015.965000001,5027429.15499946
+8,2018,3/28/2018 5:00:00 AM,3/28/2018 5:00:00 AM,Thursday,Murder 2nd Dgree,15,West,Centrepointe,Ward 8 - College,Laine Johnson,361753.681900002,5023011.50299946
+9,2018,4/11/2018 5:00:00 AM,4/11/2018 5:00:00 AM,Thursday,Murder 1st Dgree,31,East,Greenbelt - Mer Bleue,Ward 19 - Orléans South-Navan,Catherine Kitts,377183.741100004,5032160.56189946
+10,2018,5/5/2018 5:00:00 AM,5/5/2018 5:00:00 AM,Sunday,Murder 1st Dgree,33,East,Hawthorne Meadows - Sheffield Glen,Ward 18 - Alta Vista,Marty Carr,373800.548700003,5029100.07909946
+11,2018,5/24/2018 5:00:00 AM,5/24/2018 5:00:00 AM,Friday,Murder 1st Dgree,23,Central,Centretown,Ward 14 - Somerset,Ariel Troster,367948.704900004,5031549.57809946
+12,2018,5/27/2018 5:00:00 AM,5/27/2018 5:00:00 AM,Monday,Murder 1st Dgree,35,East,Greenboro East,Ward 10 - Gloucester-Southgate,Jessica Bradley,372073.732100003,5024695.51809946
+13,2018,9/15/2018 5:00:00 AM,9/15/2018 5:00:00 AM,Sunday,Murder 1st Dgree,35,East,Hunt Club Woods - Quintarra - Revelstoke,Ward 16 - River,Riley Brockington,370077.721900004,5025791.52789946
+14,2018,10/29/2018 5:00:00 AM,10/29/2018 5:00:00 AM,Tuesday,Murder 1st Dgree,21,Central,Hintonburg - Mechanicsville,Ward 15 - Kitchissippi,Jeff Leiper,365138.452100002,5029890.54109946
+15,2018,11/23/2018 5:00:00 AM,11/23/2018 5:00:00 AM,Saturday,Murder 1st Dgree,35,East,South Keys - Heron Gate - Greenboro West,Ward 10 - Gloucester-Southgate,Jessica Bradley,370852.239900004,5024838.49869946
+16,2019,1/13/2019 5:00:00 AM,1/10/2019 5:00:00 AM,Friday,Murder 2nd Dgree,14,West,Whitehaven - Queensway Terrace North,Ward 7 - Bay,Theresa Kavanagh,359558.671000002,5024103.51209946
+17,2019,2/8/2019 5:00:00 AM,2/8/2019 5:00:00 AM,Saturday,Murder 2nd Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368601.704900002,5032846.58899946
+18,2019,2/20/2019 5:00:00 AM,2/20/2019 5:00:00 AM,Thursday,Murder 2nd Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,369874.707100004,5034030.59809946
+19,2019,4/6/2019 5:00:00 AM,4/6/2019 5:00:00 AM,Sunday,Murder 2nd Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,370236.707900002,5033852.59589946
+20,2019,4/18/2019 5:00:00 AM,4/18/2019 5:00:00 AM,Friday,Murder 2nd Dgree,24,Central,Byward Market,Ward 12 - Rideau-Vanier,Stéphanie Plante,367866.786200002,5032275.26129946
+21,2019,5/14/2019 5:00:00 AM,5/13/2019 5:00:00 AM,Tuesday,Murder 1st Dgree,25,Central,Overbrook - McArthur,Ward 13 - Rideau-Rockcliffe,Rawlson King,370790.963000004,5032555.94899946
+22,2019,5/27/2019 5:00:00 AM,5/27/2019 5:00:00 AM,Tuesday,Murder 2nd Dgree,34,East,Ledbury - Heron Gate - Ridgemont - Elmwood,Ward 10 - Gloucester-Southgate,Jessica Bradley,371501.727900005,5026253.53009946
+23,2019,6/7/2019 5:00:00 AM,6/7/2019 5:00:00 AM,Saturday,Murder 2nd Dgree,24,Central,Byward Market,Ward 12 - Rideau-Vanier,Stéphanie Plante,367930.704100003,5032342.58489946
+24,2019,7/1/2019 5:00:00 AM,7/1/2019 5:00:00 AM,Tuesday,Murder 2nd Dgree,24,Central,Byward Market,Ward 12 - Rideau-Vanier,Stéphanie Plante,368157.704100003,5032315.58489946
+25,2019,9/8/2019 5:00:00 AM,9/8/2019 5:00:00 AM,Monday,Murder 2nd Dgree,25,Central,Overbrook - McArthur,Ward 13 - Rideau-Rockcliffe,Rawlson King,370744.715100003,5031929.57699946
+26,2019,10/31/2019 5:00:00 AM,10/31/2019 5:00:00 AM,Friday,Murder 1st Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368291.704100003,5032753.58899946
+27,2019,11/1/2019 5:00:00 AM,10/31/2019 5:00:00 AM,Friday,Murder 2nd Dgree,22,Central,West Centertown,Ward 14 - Somerset,Ariel Troster,366808.946000004,5028985.33809946
+28,2019,11/27/2019 5:00:00 AM,11/27/2019 5:00:00 AM,Thursday,Murder 1st Dgree,33,East,Hunt Club Park,Ward 10 - Gloucester-Southgate,Jessica Bradley,373980.122300005,5025767.74129946
+29,2020,1/8/2020 5:00:00 AM,1/8/2020 5:00:00 AM,Thursday,Murder 1st Dgree,23,Central,Centretown,Ward 14 - Somerset,Ariel Troster,367617.249600002,5030672.87149946
+30,2020,2/3/2020 5:00:00 AM,2/2/2020 5:00:00 AM,Monday,Murder 2nd Dgree,32,East,Cummings,Ward 11 - Beacon Hill-Cyrville,Tim Tierney,373014.728500004,5032119.54829946
+31,2020,3/19/2020 5:00:00 AM,3/19/2020 5:00:00 AM,Friday,Murder 2nd Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368291.704100003,5032753.58899946
+32,2020,4/13/2020 5:00:00 AM,4/10/2020 5:00:00 AM,Saturday,Murder 1st Dgree,14,West,Whitehaven - Queensway Terrace North,Ward 7 - Bay,Theresa Kavanagh,359890.284100001,5023986.34299946
+33,2020,5/15/2020 5:00:00 AM,5/15/2020 5:00:00 AM,Saturday,Manslaughter,17,West,Cityview - Skyline - Fisher Heights,Ward 9 - Knoxdale-Merivale,Sean Devine,365103.459900001,5024007.82539946
+34,2020,7/27/2020 5:00:00 AM,7/27/2020 5:00:00 AM,Tuesday,Murder 1st Dgree,32,East,Carson Grove - Carson Meadows,Ward 13 - Rideau-Rockcliffe,Rawlson King,372741.361600004,5034102.57509946
+35,2020,8/21/2020 5:00:00 AM,8/21/2020 5:00:00 AM,Saturday,Murder 1st Dgree,14,West,Whitehaven - Queensway Terrace North,Ward 7 - Bay,Theresa Kavanagh,359944.677000001,5024259.01059946
+36,2020,10/18/2020 5:00:00 AM,10/17/2020 5:00:00 AM,Sunday,Murder 2nd Dgree,31,East,Greenbelt - Mer Bleue,Ward 19 - Orléans South-Navan,Catherine Kitts,377183.741100004,5032160.56189946
+37,2020,11/11/2020 5:00:00 AM,11/11/2020 5:00:00 AM,Thursday,Murder 2nd Dgree,22,Central,West Centertown,Ward 14 - Somerset,Ariel Troster,366821.703000001,5030255.56709946
+38,2021,1/12/2021 5:00:00 AM,1/12/2021 5:00:00 AM,Wednesday,Manslaughter,17,West,Cityview - Skyline - Fisher Heights,Ward 9 - Knoxdale-Merivale,Sean Devine,366417.037000002,5024945.23809946
+39,2021,1/16/2021 5:00:00 AM,1/16/2021 5:00:00 AM,Sunday,Murder 1st Dgree,35,East,Greenboro East,Ward 10 - Gloucester-Southgate,Jessica Bradley,372592.914000004,5025136.16299946
+40,2021,2/24/2021 5:00:00 AM,2/24/2021 5:00:00 AM,Thursday,Murder 1st Dgree,31,East,Greenbelt - Mer Bleue,Ward 19 - Orléans South-Navan,Catherine Kitts,377183.741100004,5032160.56189946
+41,2021,3/7/2021 5:00:00 AM,3/7/2021 5:00:00 AM,Monday,Murder 1st Dgree,12,West,Richmond,Ward 21 - Rideau-Jock,David Brown,358676.618900001,5003930.32489946
+42,2021,4/23/2021 5:00:00 AM,4/23/2021 5:00:00 AM,Saturday,Murder 2nd Dgree,22,Central,West Centertown,Ward 14 - Somerset,Ariel Troster,366829.944900002,5030390.60109946
+43,2021,5/4/2021 5:00:00 AM,5/4/2021 5:00:00 AM,Wednesday,Manslaughter,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,370155.709000002,5033390.59099946
+44,2021,5/26/2021 5:00:00 AM,5/26/2021 5:00:00 AM,Thursday,Murder 1st Dgree,32,East,Cummings,Ward 11 - Beacon Hill-Cyrville,Tim Tierney,373748.726000003,5032387.57399946
+45,2021,5/28/2021 5:00:00 AM,5/28/2021 5:00:00 AM,Saturday,Murder 1st Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,370700.504100003,5030197.50849946
+46,2021,5/28/2021 5:00:00 AM,5/28/2021 5:00:00 AM,Saturday,Murder 1st Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,370700.504100003,5030197.50849946
+47,2021,5/30/2021 5:00:00 AM,5/30/2021 5:00:00 AM,Monday,Murder 1st Dgree,32,East,Pineview,Ward 11 - Beacon Hill-Cyrville,Tim Tierney,374645.380700005,5031325.75179946
+48,2021,6/15/2021 5:00:00 AM,6/15/2021 5:00:00 AM,Wednesday,Murder 1st Dgree,17,West,Crestview - Meadowlands,Ward 8 - College,Laine Johnson,363162.821900002,5023961.36109946
+49,2021,7/5/2021 5:00:00 AM,7/4/2021 5:00:00 AM,Monday,Murder 1st Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368824.782200002,5032744.66089946
+50,2021,7/22/2021 5:00:00 AM,7/22/2021 5:00:00 AM,Friday,Murder 1st Dgree,15,West,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,Ward 9 - Knoxdale-Merivale,Sean Devine,363206.689000002,5021237.48789946
+51,2021,8/10/2021 5:00:00 AM,8/10/2021 5:00:00 AM,Wednesday,Murder 1st Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368601.704900002,5032846.58899946
+52,2021,10/26/2021 5:00:00 AM,10/26/2021 5:00:00 AM,Wednesday,Murder 1st Dgree,14,West,Britannia Village,Ward 7 - Bay,Theresa Kavanagh,360488.250000002,5025173.32929946
+53,2021,11/14/2021 5:00:00 AM,11/14/2021 5:00:00 AM,Monday,Murder 1st Dgree,16,West,Barrhaven,Ward 3 - Barrhaven West,David Hill,363099.681900002,5015696.43889946
+54,2021,12/6/2021 5:00:00 AM,12/6/2021 5:00:00 AM,Tuesday,Murder 1st Dgree,15,West,Iris,Ward 8 - College,Laine Johnson,361633.192900003,5023935.51399946
+55,2022,1/3/2022 5:00:00 AM,1/3/2022 5:00:00 AM,Tuesday,Murder 2nd Dgree,33,East,Hawthorne Meadows - Sheffield Glen,Ward 18 - Alta Vista,Marty Carr,373800.548700003,5029100.07909946
+56,2022,1/22/2022 5:00:00 AM,1/22/2022 5:00:00 AM,Sunday,Murder 2nd Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,370239.157000003,5033329.47509946
+57,2022,2/21/2022 5:00:00 AM,2/21/2022 5:00:00 AM,Tuesday,Murder 1st Dgree,35,East,Greenboro East,Ward 10 - Gloucester-Southgate,Jessica Bradley,372676.535400005,5025829.62619946
+58,2022,3/28/2022 5:00:00 AM,3/26/2022 5:00:00 AM,Sunday,Murder 1st Dgree,34,East,Ledbury - Heron Gate - Ridgemont - Elmwood,Ward 10 - Gloucester-Southgate,Jessica Bradley,371501.727900005,5026253.53009946
+59,2022,4/15/2022 5:00:00 AM,4/15/2022 5:00:00 AM,Saturday,Murder 1st Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,372565.034300005,5029295.79429946
+60,2022,6/28/2022 5:00:00 AM,6/28/2022 5:00:00 AM,Wednesday,Murder 1st Dgree,34,East,Ledbury - Heron Gate - Ridgemont - Elmwood,Ward 18 - Alta Vista,Marty Carr,370260.112200004,5026800.85959946
+61,2022,6/28/2022 5:00:00 AM,6/28/2022 5:00:00 AM,Wednesday,Murder 1st Dgree,34,East,Ledbury - Heron Gate - Ridgemont - Elmwood,Ward 18 - Alta Vista,Marty Carr,370260.112200004,5026800.85959946
+62,2022,7/5/2022 5:00:00 AM,7/5/2022 5:00:00 AM,Wednesday,Murder 1st Dgree,34,East,Ledbury - Heron Gate - Ridgemont - Elmwood,Ward 16 - River,Riley Brockington,370828.031800002,5025379.67699946
+63,2022,7/16/2022 5:00:00 AM,7/15/2022 5:00:00 AM,Saturday,Murder 2nd Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368482.704900003,5032771.58789946
+64,2022,9/11/2022 5:00:00 AM,9/11/2022 5:00:00 AM,Monday,Murder 1st Dgree,15,West,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,Ward 9 - Knoxdale-Merivale,Sean Devine,363035.687900002,5021802.49289946
+65,2022,9/16/2022 5:00:00 AM,9/15/2022 5:00:00 AM,Friday,Manslaughter,14,West,Britannia Village,Ward 7 - Bay,Theresa Kavanagh,360488.250000002,5025173.32929946
+66,2022,9/16/2022 5:00:00 AM,9/16/2022 5:00:00 AM,Saturday,Murder 1st Dgree,25,Central,Overbrook - McArthur,Ward 13 - Rideau-Rockcliffe,Rawlson King,372080.734700003,5031933.45589946
+67,2022,9/28/2022 5:00:00 AM,9/28/2022 5:00:00 AM,Thursday,Murder 1st Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,369943.709000003,5033295.59099946
+68,2022,10/5/2022 5:00:00 AM,10/5/2022 5:00:00 AM,Thursday,Murder 2nd Dgree,31,East,Orléans Queenswood Heights,Ward 1 - Orléans East-Cumberland,Matthew Luloff,383056.750100007,5037933.57999946
+69,2022,10/5/2022 5:00:00 AM,10/5/2022 5:00:00 AM,Thursday,Murder 2nd Dgree,31,East,Orléans Queenswood Heights,Ward 1 - Orléans East-Cumberland,Matthew Luloff,383056.750100007,5037933.57999946
+70,2022,10/31/2022 5:00:00 AM,10/31/2022 5:00:00 AM,Tuesday,Murder 1st Dgree,32,East,Cummings,Ward 11 - Beacon Hill-Cyrville,Tim Tierney,372412.720000004,5032504.57889946
+71,2023,1/31/2023 5:00:00 AM,1/31/2023 5:00:00 AM,Wednesday,Murder 1st Dgree,35,East,Emerald Woods - Sawmill Creek,Ward 10 - Gloucester-Southgate,Jessica Bradley,371602.731000002,5023574.50989946
+72,2023,2/7/2023 5:00:00 AM,2/7/2023 5:00:00 AM,Wednesday,Murder 1st Dgree,31,East,Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South,Ward 19 - Orléans South-Navan,Catherine Kitts,384598.08260001,5033870.05149946
+73,2023,2/14/2023 5:00:00 AM,2/14/2023 5:00:00 AM,Wednesday,Murder 1st Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,371071.720000003,5030273.56189946
+74,2023,2/21/2023 5:00:00 AM,2/21/2023 5:00:00 AM,Wednesday,Murder 1st Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368389.704900003,5032597.58709946
+75,2023,4/24/2023 5:00:00 AM,4/24/2023 5:00:00 AM,Tuesday,Murder 2nd Dgree,35,East,South Keys - Heron Gate - Greenboro West,Ward 10 - Gloucester-Southgate,Jessica Bradley,371617.729900002,5024577.51809946
+76,2023,5/6/2023 5:00:00 AM,5/6/2023 5:00:00 AM,Sunday,Murder 2nd Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,371326.435100005,5029883.36039946
+77,2023,5/9/2023 5:00:00 AM,5/9/2023 5:00:00 AM,Wednesday,Murder 2nd Dgree,35,East,Emerald Woods - Sawmill Creek,Ward 10 - Gloucester-Southgate,Jessica Bradley,371903.121500003,5023641.85379946
+78,2023,6/28/2023 5:00:00 AM,6/28/2023 5:00:00 AM,Thursday,Murder 1st Dgree,21,Central,Carlington,Ward 16 - River,Riley Brockington,364049.694000003,5026375.53289946
+79,2023,6/29/2023 5:00:00 AM,6/29/2023 5:00:00 AM,Friday,Murder 1st Dgree,21,Central,Civic Hospital-Central Park,Ward 16 - River,Riley Brockington,364417.820000001,5025858.52709946
+80,2023,7/19/2023 5:00:00 AM,7/19/2023 5:00:00 AM,Thursday,Manslaughter,22,Central,West Centertown,Ward 14 - Somerset,Ariel Troster,366717.547000003,5029970.70019946
+81,2023,8/19/2023 5:00:00 AM,8/19/2023 5:00:00 AM,Sunday,Murder 1st Dgree,37,East,Russell - Edwards,Ward 20 - Osgoode,Isabelle Skalski,383016.791000009,5023978.49699946
+82,2023,9/2/2023 5:00:00 AM,9/2/2023 5:00:00 AM,Sunday,Murder 1st Dgree,35,East,Hunt Club - Ottawa Airport,Ward 10 - Gloucester-Southgate,Jessica Bradley,370029.761900004,5022883.40899946
+83,2023,9/2/2023 5:00:00 AM,9/2/2023 5:00:00 AM,Sunday,Murder 1st Dgree,35,East,Hunt Club - Ottawa Airport,Ward 10 - Gloucester-Southgate,Jessica Bradley,370029.761900004,5022883.40899946
+84,2023,10/11/2023 5:00:00 AM,10/11/2023 5:00:00 AM,Thursday,Murder 1st Dgree,31,East,Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South,Ward 1 - Orléans East-Cumberland,Matthew Luloff,383736.182600009,5036677.45529946
+85,2023,11/23/2023 5:00:00 AM,11/23/2023 5:00:00 AM,Friday,Murder 2nd Dgree,15,West,Centrepointe,Ward 8 - College,Laine Johnson,361962.079700002,5023163.69949946
+86,2023,11/30/2023 5:00:00 AM,11/30/2023 5:00:00 AM,Friday,Manslaughter,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368353.704100002,5032692.58789946
+87,2024,1/29/2024 5:00:00 AM,1/29/2024 5:00:00 AM,Tuesday,Murder 1st Dgree,22,Central,West Centertown,Ward 15 - Kitchissippi,Jeff Leiper,366557.703000002,5028965.55589946
+88,2024,3/6/2024 5:00:00 AM,3/6/2024 5:00:00 AM,Thursday,Murder 1st Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365006.755900003,5015977.63589946
+89,2024,3/6/2024 5:00:00 AM,3/6/2024 5:00:00 AM,Thursday,Murder 1st Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365006.755900003,5015977.63589946
+90,2024,3/6/2024 5:00:00 AM,3/6/2024 5:00:00 AM,Thursday,Murder 1st Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365006.755900003,5015977.63589946
+91,2024,3/6/2024 5:00:00 AM,3/6/2024 5:00:00 AM,Thursday,Murder 1st Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365006.755900003,5015977.63589946
+92,2024,3/6/2024 5:00:00 AM,3/6/2024 5:00:00 AM,Thursday,Murder 1st Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365006.755900003,5015977.63589946
+93,2024,3/6/2024 5:00:00 AM,3/6/2024 5:00:00 AM,Thursday,Murder 1st Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365006.755900003,5015977.63589946
+94,2024,4/12/2024 5:00:00 AM,4/12/2024 5:00:00 AM,Saturday,Murder 1st Dgree,23,Central,Centretown,Ward 14 - Somerset,Ariel Troster,367097.129000002,5030170.62799946
+95,2024,4/19/2024 5:00:00 AM,4/19/2024 5:00:00 AM,Saturday,Murder 2nd Dgree,25,Central,Rockcliffe - Manor Park,Ward 13 - Rideau-Rockcliffe,Rawlson King,370365.547100004,5034777.29399946
+96,2024,5/2/2024 5:00:00 AM,5/2/2024 5:00:00 AM,Friday,Murder 1st Dgree,32,East,Cummings,Ward 11 - Beacon Hill-Cyrville,Tim Tierney,372421.149100004,5032447.74059946
+97,2024,5/2/2024 5:00:00 AM,5/2/2024 5:00:00 AM,Friday,Murder 1st Dgree,15,West,Centrepointe,Ward 8 - College,Laine Johnson,362377.164100001,5023119.72469946
+98,2024,6/12/2024 5:00:00 AM,12/11/2023 5:00:00 AM,Tuesday,Murder 2nd Dgree,15,West,Iris,Ward 8 - College,Laine Johnson,362479.2636,5023951.15579946
+99,2024,6/17/2024 5:00:00 AM,6/17/2024 5:00:00 AM,Tuesday,Manslaughter,13,West,Katimavik - Hazeldean,Ward 4 - Kanata North,Cathy Curry,351429.974,5019331.30899946
+100,2024,6/28/2024 5:00:00 AM,6/28/2024 5:00:00 AM,Saturday,Murder 2nd Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,373001.729000006,5029506.55289946
+101,2024,7/5/2024 5:00:00 AM,7/5/2024 5:00:00 AM,Saturday,Murder 1st Dgree,21,Central,Westboro,Ward 15 - Kitchissippi,Jeff Leiper,364289.1009,5027671.61829946
+102,2024,7/16/2024 5:00:00 AM,7/16/2024 5:00:00 AM,Wednesday,Murder 1st Dgree,31,East,Orléans Avalon - Notting Gate - Fallingbrook - Gardenway South,Ward 19 - Orléans South-Navan,Catherine Kitts,383424.869500008,5034965.11069946
+103,2024,8/7/2024 5:00:00 AM,8/7/2024 5:00:00 AM,Thursday,Murder 2nd Dgree,31,East,Orléans Chatelaine Village,Ward 1 - Orléans East-Cumberland,Matthew Luloff,382518.743000006,5039026.59289946
+104,2024,8/25/2024 5:00:00 AM,8/25/2024 5:00:00 AM,Monday,Murder 2nd Dgree,11,West,Corkery,Ward 5 - West Carleton-March,Clarke Kelly,343753.527900001,5012367.43889946
+105,2024,9/12/2024 5:00:00 AM,9/12/2024 5:00:00 AM,Friday,Murder 2nd Dgree,24,Central,Byward Market,Ward 12 - Rideau-Vanier,Stéphanie Plante,368325.704900004,5032416.58489946
+106,2024,9/15/2024 5:00:00 AM,9/15/2024 5:00:00 AM,Monday,Murder 1st Dgree,23,Central,Centretown,Ward 14 - Somerset,Ariel Troster,366941.703000004,5030856.57209946
+107,2024,9/19/2024 5:00:00 AM,9/19/2024 5:00:00 AM,Friday,Murder 1st Dgree,34,East,Ledbury - Heron Gate - Ridgemont - Elmwood,Ward 18 - Alta Vista,Marty Carr,371899.769800003,5026870.84499946
+108,2024,9/23/2024 5:00:00 AM,9/23/2024 5:00:00 AM,Tuesday,Murder 2nd Dgree,36,East,Metcalfe,Ward 20 - Osgoode,Isabelle Skalski,383701.798900008,5015623.45009946
+109,2024,10/8/2024 5:00:00 AM,10/8/2024 5:00:00 AM,Wednesday,Murder 1st Dgree,17,West,Crestview - Meadowlands,Ward 8 - College,Laine Johnson,364003.220900003,5023740.73619946
+110,2024,10/24/2024 5:00:00 AM,10/24/2024 5:00:00 AM,Friday,Murder 1st Dgree,35,East,Hunt Club East - Western Community,Ward 16 - River,Riley Brockington,369774.721900004,5023441.50899946
+111,2024,10/28/2024 5:00:00 AM,10/28/2024 5:00:00 AM,Tuesday,Murder 1st Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,369993.707100003,5033882.59589946
+112,2024,12/25/2024 5:00:00 AM,12/25/2024 5:00:00 AM,Thursday,Murder 2nd Dgree,21,Central,Hintonburg - Mechanicsville,Ward 15 - Kitchissippi,Jeff Leiper,365715.432900003,5029867.40189946
+113,2025,1/10/2025 5:00:00 AM,1/10/2025 5:00:00 AM,Saturday,Murder 2nd Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 3 - Barrhaven West,David Hill,365846.847100002,5013406.73399946
+114,2025,2/6/2025 5:00:00 AM,2/6/2025 5:00:00 AM,Friday,Murder 1st Dgree,31,East,Greenbelt - Mer Bleue,Ward 19 - Orléans South-Navan,Catherine Kitts,377183.741100004,5032160.56189946
+115,2025,2/15/2025 5:00:00 AM,2/15/2025 5:00:00 AM,Sunday,Murder 2nd Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,371333.019200003,5034330.97659946
+116,2025,2/19/2025 5:00:00 AM,2/19/2025 5:00:00 AM,Thursday,Murder 2nd Dgree,25,Central,Overbrook - McArthur,Ward 13 - Rideau-Rockcliffe,Rawlson King,370996.715900003,5031816.57589946
+117,2025,3/14/2025 5:00:00 AM,3/14/2025 5:00:00 AM,Saturday,Murder 2nd Dgree,16,West,New Barrhaven - New Development - Stonebridge,Ward 24 - Barrhaven East,Wilson Lo,365118.275900002,5016928.21139946
+118,2025,3/29/2025 5:00:00 AM,3/29/2025 5:00:00 AM,Sunday,Murder 2nd Dgree,22,Central,West Centertown,Ward 14 - Somerset,Ariel Troster,366746.701900002,5030586.57009946
+119,2025,3/31/2025 5:00:00 AM,3/16/2025 5:00:00 AM,Monday,Murder 1st Dgree,15,West,Iris,Ward 8 - College,Laine Johnson,361339.680000002,5023927.51099946
+120,2025,4/1/2025 5:00:00 AM,4/1/2025 5:00:00 AM,Wednesday,Murder 1st Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,369035.706000004,5032924.58899946
+121,2025,4/4/2025 5:00:00 AM,4/4/2025 5:00:00 AM,Saturday,Murder 2nd Dgree,32,East,CFB Rockcliffe-NRC,Ward 13 - Rideau-Rockcliffe,Rawlson King,373059.715900005,5034683.59589946
+122,2025,4/5/2025 5:00:00 AM,4/5/2025 5:00:00 AM,Sunday,Murder 1st Dgree,16,West,Barrhaven,Ward 3 - Barrhaven West,David Hill,363267.681100001,5014630.42899946
+123,2025,4/6/2025 5:00:00 AM,4/6/2025 5:00:00 AM,Monday,Murder 1st Dgree,15,West,Woodvale - Craig Henry - Manordale - Estates of Arlington Woods,Ward 9 - Knoxdale-Merivale,Sean Devine,362580.327700002,5021848.74789946
+124,2025,5/27/2025 5:00:00 AM,5/27/2025 5:00:00 AM,Wednesday,Murder 1st Dgree,16,West,Barrhaven,Ward 3 - Barrhaven West,David Hill,361549.672100001,5015729.43809946
+125,2025,6/2/2025 5:00:00 AM,6/2/2025 5:00:00 AM,Tuesday,Murder 2nd Dgree,35,East,Emerald Woods - Sawmill Creek,Ward 10 - Gloucester-Southgate,Jessica Bradley,371903.121500003,5023641.85379946
+126,2025,10/2/2025 5:00:00 AM,10/2/2025 5:00:00 AM,Friday,Murder 2nd Dgree,25,Central,Vanier North,Ward 12 - Rideau-Vanier,Stéphanie Plante,371333.019200003,5034330.97659946
+127,2025,10/15/2025 5:00:00 AM,10/15/2025 5:00:00 AM,Thursday,Murder 1st Dgree,23,Central,Centretown,Ward 14 - Somerset,Ariel Troster,367248.638100001,5030647.19289946
+128,2025,10/17/2025 5:00:00 AM,10/17/2025 5:00:00 AM,Saturday,Murder 2nd Dgree,24,Central,Lowertown,Ward 12 - Rideau-Vanier,Stéphanie Plante,368389.704900003,5032597.58709946
+129,2025,10/18/2025 5:00:00 AM,10/18/2025 5:00:00 AM,Sunday,Murder 1st Dgree,33,East,Elmvale - Eastway - Riverview - Riverview Park West,Ward 18 - Alta Vista,Marty Carr,373001.729000006,5029506.55289946
+130,2025,10/22/2025 5:00:00 AM,10/22/2025 5:00:00 AM,Thursday,Murder 2nd Dgree,32,East,CFB Rockcliffe-NRC,Ward 13 - Rideau-Rockcliffe,Rawlson King,371403.710100004,5034736.60189946
+131,2025,11/17/2025 5:00:00 AM,11/17/2025 5:00:00 AM,Tuesday,Murder 2nd Dgree,14,West,Whitehaven - Queensway Terrace North,Ward 7 - Bay,Theresa Kavanagh,359558.671000002,5024103.51209946
