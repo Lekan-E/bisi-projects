@@ -1,0 +1,74 @@
+2026-07-21 17:59:20,213 - INFO - __main__ - Starting training pipeline.
+2026-07-21 17:59:20,213 - INFO - __main__ - Loaded and preprocessed 200 rows from data/raw/mall_customers.csv.
+2026-07-21 17:59:20,796 - INFO - __main__ - WCSS scores:
+   cluster  WCSS_Score
+0        3  295.456245
+1        4  205.225147
+2        5  169.891498
+3        6  134.352775
+4        7  121.389350
+5        8  113.727230
+2026-07-21 17:59:20,799 - INFO - __main__ - Silhouette scores:
+   cluster  Silhouette_Score
+0        3          0.357923
+1        4          0.403958
+2        5          0.408469
+3        6          0.431065
+4        7          0.410091
+5        8          0.367366
+2026-07-21 17:59:20,801 - INFO - __main__ - Best k by Silhouette score: 6
+2026-07-21 17:59:20,807 - INFO - __main__ - Model training complete.
+2026-07-21 17:59:20,966 - INFO - __main__ - Cluster sizes:
+Cluster
+0    45
+3    40
+1    39
+4    30
+2    25
+5    21
+Name: count, dtype: int64
+2026-07-21 17:59:20,966 - INFO - __main__ - Cluster profile (mean values):
+               Age  Annual_Income  Spending_Score
+Cluster                                          
+0        56.333333      54.266667       49.066667
+1        32.692308      86.538462       82.128205
+2        25.560000      26.480000       76.240000
+3        26.125000      59.425000       44.450000
+4        44.000000      90.133333       17.933333
+5        45.523810      26.285714       19.380952
+2026-07-21 17:59:44,658 - INFO - __main__ - Starting training pipeline.
+2026-07-21 17:59:44,664 - INFO - __main__ - Loaded and preprocessed 200 rows from data/raw/mall_customers.csv.
+2026-07-21 17:59:45,272 - INFO - __main__ - WCSS scores:
+   cluster  WCSS_Score
+0        3  295.456245
+1        4  205.225147
+2        5  169.891498
+3        6  134.352775
+4        7  121.389350
+5        8  113.727230
+2026-07-21 17:59:45,272 - INFO - __main__ - Silhouette scores:
+   cluster  Silhouette_Score
+0        3          0.357923
+1        4          0.403958
+2        5          0.408469
+3        6          0.431065
+4        7          0.410091
+5        8          0.367366
+2026-07-21 17:59:45,280 - INFO - __main__ - Using k=5 clusters.
+2026-07-21 17:59:45,280 - INFO - __main__ - Model training complete.
+2026-07-21 17:59:45,442 - INFO - __main__ - Cluster sizes:
+Cluster
+0    58
+3    45
+1    40
+4    31
+2    26
+Name: count, dtype: int64
+2026-07-21 17:59:45,442 - INFO - __main__ - Cluster profile (mean values):
+               Age  Annual_Income  Spending_Score
+Cluster                                          
+0        55.275862      47.620690       41.706897
+1        32.875000      86.100000       81.525000
+2        25.769231      26.115385       74.846154
+3        26.733333      54.311111       40.911111
+4        44.387097      89.774194       18.483871

@@ -1,0 +1,7 @@
+2026-07-21 17:59:25,407 - INFO - __main__ - Starting training pipeline.
+2026-07-21 17:59:25,414 - INFO - __main__ - Loaded and preprocessed 500 rows from data/raw/Admission.csv.
+2026-07-21 17:59:25,688 - INFO - __main__ - Model training complete.
+2026-07-21 17:59:25,688 - INFO - __main__ - Accuracy: 0.91
+2026-07-21 17:59:25,688 - INFO - __main__ - Confusion Matrix:
+[[64  5]
+ [ 4 27]]
