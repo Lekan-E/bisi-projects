@@ -18,10 +18,12 @@ st.markdown(
 )
 
 gdf = load_geodata()
-cluster_rank = rank_clusters_by_crime(gdf)
-color_map = cluster_color_map(cluster_rank)
-label_map = cluster_label_map(cluster_rank)
+cluster_rank = rank_clusters_by_crime(gdf)          # cluster ids, safest -> highest-crime
+color_map = cluster_color_map(cluster_rank)         # cluster id -> hex colour
+label_map = cluster_label_map(cluster_rank)         # cluster id -> display label
 
+# sidebar checklist of clusters to show; translate the human-readable labels
+# back to the underlying cluster ids for filtering
 with st.sidebar:
     st.header("Filters")
     selected_labels = st.multiselect(
@@ -32,12 +34,14 @@ with st.sidebar:
     label_to_cid = {v: k for k, v in label_map.items()}
     selected_clusters = {label_to_cid[label] for label in selected_labels}
 
+# nothing selected -> nothing to draw, so stop instead of rendering an empty map
 if not selected_clusters:
     st.warning("Select at least one cluster from the sidebar to display the map.")
     st.stop()
 
 gdf_view = gdf[gdf["cluster"].isin(selected_clusters)]
 
+# base map centred on Ottawa
 m = folium.Map(
     location=[45.4215, -75.6972],
     zoom_start=11,
@@ -45,6 +49,7 @@ m = folium.Map(
     attr="Google Maps",
 )
 
+# draw one polygon per neighbourhood, coloured by its cluster
 folium.GeoJson(
     gdf_view.__geo_interface__,
     style_function=lambda feat: {
@@ -67,6 +72,7 @@ folium.GeoJson(
     ),
 ).add_to(m)
 
+# hand-built HTML legend, pinned to the top-right corner of the map
 legend_html = """
 <div style="position:fixed; top:30px; right:30px; z-index:1000;
             background:white; padding:12px 16px; border-radius:8px;
@@ -86,6 +92,7 @@ for i, cid in enumerate(cluster_rank):
 legend_html += "</div>"
 m.get_root().html.add_child(folium.Element(legend_html))
 
+# folium builds a plain HTML page; components.html embeds it in an iframe on the Streamlit page
 components.html(m._repr_html_(), height=700, scrolling=False)
 
 st.caption(f"Showing {len(gdf_view)} of {len(gdf)} neighbourhoods.")

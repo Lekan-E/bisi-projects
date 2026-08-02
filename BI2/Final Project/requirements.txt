@@ -1,0 +1,10 @@
+streamlit==1.41.1
+pandas==2.2.3
+numpy==1.26.4
+matplotlib==3.10.0
+geopandas==1.0.1
+pyogrio==0.10.0
+folium==0.15.1
+shapely==2.0.6
+scipy==1.15.1
+altair==5.5.0

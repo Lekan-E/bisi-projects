@@ -19,6 +19,8 @@ df = load_data()
 cols = crime_cols(df)
 comp = with_composition(df)
 
+# every safety metric available in the sidebar dropdown, all normalised by
+# population so neighbourhoods of different sizes can be compared fairly
 metrics = {
     "Total Crime per Capita": comp[cols].sum(axis=1) / comp["Population"],
     "Violent Crime per Capita": comp["Violent"] / comp["Population"],
@@ -42,6 +44,7 @@ with st.sidebar:
     )
     metric = st.selectbox("Safety metric (lower = safer)", options=list(metrics.keys()))
 
+# sort ascending by the chosen metric (lower = safer), then rank 1..N
 ranked = metric_df.sort_values(metric).reset_index(drop=True)
 ranked["Rank"] = ranked.index + 1
 total = len(ranked)
@@ -64,19 +67,21 @@ st.caption(
     "(#1 = most incidents); its standout crime type is highlighted in red."
 )
 
+# raw (non-per-capita) counts, one row per crime feature, for this neighbourhood
 work = with_homicide(df)
 feature_order = display_feature_order(df)
-max_vals = work[feature_order].max()
+max_vals = work[feature_order].max()  # city-wide max per feature, used to scale the bars
 feature_ranks = work[feature_order].rank(method="min", ascending=False).astype(int)
 
 row_idx = work.index[work["Neighbourhood"] == neighbourhood][0]
 row_values = work.loc[row_idx, feature_order]
 row_ranks = feature_ranks.loc[row_idx]
+# the one feature where this neighbourhood ranks closest to #1 (i.e. its most notable crime type)
 standout_feature = row_ranks.idxmin()
 
 for feat in feature_order:
     value = int(row_values[feat])
-    denom = max_vals[feat] if max_vals[feat] else 1
+    denom = max_vals[feat] if max_vals[feat] else 1  # avoid divide-by-zero if a feature is all zeros
     ratio = min(max(value / denom, 0.0), 1.0)
     rank = int(row_ranks[feat])
     is_standout = feat == standout_feature and value > 0
@@ -89,6 +94,7 @@ for feat in feature_order:
     c4.markdown(f"<div style='text-align:right;color:{rank_color}'>#{rank}</div>", unsafe_allow_html=True)
 
 st.subheader("Nearby in Rank")
+# show a small window of neighbourhoods just above/below the selected one, not the full list of 104
 window = 5
 lo = max(0, int(row["Rank"]) - 1 - window)
 hi = min(total, int(row["Rank"]) + window)

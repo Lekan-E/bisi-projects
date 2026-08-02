@@ -8,10 +8,13 @@ import streamlit as st
 
 DATA_PATH = Path(__file__).parent / "data" / "processed" / "Clustered_Data.csv"
 
+# columns that describe a neighbourhood but aren't a crime count themselves —
+# used to figure out which columns ARE crime features (see crime_cols() below)
 META_COLS = {
     "Neighbourhood", "cluster", "Population",
     "Police_Critical", "Police_High", "Police_Medium", "geometry",
 }
+# how each crime column is bucketed for the Violent / Property / Other split
 VIOLENT_COLS = [
     "Assaults", "Manslaughter", "Murder 1st Dgree", "Murder 2nd Dgree",
     "Shootings", "Violations Causing Death",
@@ -31,6 +34,8 @@ CRIME_GRADIENT = mcolors.LinearSegmentedColormap.from_list(
 )
 
 
+# @st.cache_data means this only actually runs once per session — every page that
+# calls load_data() again just gets the cached DataFrame back, no re-reading the CSV
 @st.cache_data
 def load_data() -> pd.DataFrame:
     df = pd.read_csv(DATA_PATH)
@@ -41,6 +46,7 @@ def load_data() -> pd.DataFrame:
 @st.cache_data
 def load_geodata() -> gpd.GeoDataFrame:
     df = load_data()
+    # the CSV stores polygon geometry as WKT text; turn it back into real geometry objects
     return gpd.GeoDataFrame(
         df.copy(),
         geometry=gpd.GeoSeries.from_wkt(df["geometry"]),
@@ -49,10 +55,12 @@ def load_geodata() -> gpd.GeoDataFrame:
 
 
 def crime_cols(df: pd.DataFrame) -> list[str]:
+    """Every column that's a crime-incident count (i.e. everything except META_COLS)."""
     return [c for c in df.columns if c not in META_COLS]
 
 
 def other_cols(df: pd.DataFrame) -> list[str]:
+    """Crime columns that aren't classified as Violent or Property (the leftover bucket)."""
     return [c for c in crime_cols(df) if c not in VIOLENT_COLS and c not in PROPERTY_COLS]
 
 

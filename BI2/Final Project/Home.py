@@ -2,6 +2,7 @@ import streamlit as st
 
 from app_utils import load_data
 
+# page_title/page_icon set the browser tab; the filename "Home" sets the sidebar nav label
 st.set_page_config(
     page_title="Ottawa Neighbourhood Safety",
     page_icon="🧭",
@@ -32,9 +33,11 @@ Use the sidebar to navigate:
 """
 )
 
+# load_data() is cached (see app_utils.py), so this only reads the CSV once per session
 df = load_data()
 n_clusters = df["cluster"].nunique()
 
+# quick headline stats for the landing page
 col1, col2, col3 = st.columns(3)
 col1.metric("Neighbourhoods", df["Neighbourhood"].nunique())
 col2.metric("Safety Clusters", n_clusters)
