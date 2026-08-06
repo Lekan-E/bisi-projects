@@ -72,3 +72,13 @@ Cluster
 2        25.769231      26.115385       74.846154
 3        26.733333      54.311111       40.911111
 4        44.387097      89.774194       18.483871
+2026-08-05 20:02:26,637 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-05 20:02:37,103 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-05 20:02:37,115 - INFO - __main__ - User query received: Age=30, Annual_Income=60, Spending_Score=50
+2026-08-05 20:02:37,117 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-05 20:04:32,720 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-05 20:04:32,730 - INFO - __main__ - User query received: Age=30, Annual_Income=70, Spending_Score=57
+2026-08-05 20:04:32,733 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-05 20:04:38,191 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-05 20:04:38,201 - INFO - __main__ - User query received: Age=30, Annual_Income=70, Spending_Score=63
+2026-08-05 20:04:38,204 - INFO - __main__ - Prediction result: Cluster=1

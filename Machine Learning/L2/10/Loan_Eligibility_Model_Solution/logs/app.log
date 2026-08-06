@@ -5,3 +5,25 @@
 2026-07-21 17:59:04,450 - INFO - __main__ - Confusion Matrix:
 [[16 22]
  [ 1 84]]
+2026-08-05 20:00:06,888 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:00:23,129 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:00:23,137 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=5000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-05 20:00:23,149 - INFO - __main__ - Prediction result: 1
+2026-08-05 20:00:41,169 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:00:41,173 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=5000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-05 20:00:41,186 - INFO - __main__ - Prediction result: 1
+2026-08-05 20:00:49,014 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:00:49,019 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=5000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Semiurban
+2026-08-05 20:00:49,031 - INFO - __main__ - Prediction result: 1
+2026-08-05 20:00:52,611 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:00:52,617 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=5000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Rural
+2026-08-05 20:00:52,629 - INFO - __main__ - Prediction result: 1
+2026-08-05 20:00:57,657 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:00:57,661 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=3000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Rural
+2026-08-05 20:00:57,673 - INFO - __main__ - Prediction result: 1
+2026-08-05 20:01:08,038 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:01:08,043 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=3000, LoanAmount=7000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Rural
+2026-08-05 20:01:08,055 - INFO - __main__ - Prediction result: 0
+2026-08-05 20:01:11,635 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-05 20:01:11,648 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=3000, LoanAmount=7000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Rural
+2026-08-05 20:01:11,658 - INFO - __main__ - Prediction result: 1
