@@ -1,9 +1,8 @@
 from src.data.make_dataset import load_and_preprocess_data
-from src.visualization.visualize import plot_correlation_heatmap, plot_feature_importance, plot_confusion_matrix
+from src.visualization.visualize import plot_feature_importance, plot_confusion_matrix
 from src.features.build_features import create_dummy_vars
 from src.models.train_model import train_RFmodel
 from src.models.predict_model import evaluate_model
-from sklearn.metrics import accuracy_score, confusion_matrix
 
 from logger import get_logger
 logger = get_logger(__name__)
@@ -32,6 +31,8 @@ if __name__ == "__main__":
 
         print(f"Accuracy: {accuracy}")
         print(f"Confusion Matrix:\n{confusion_mat}")
+
+        plot_confusion_matrix(y_test, model.predict(X_test_scaled), classes=['Not Eligible', 'Eligible'])
     except Exception:
         logger.exception("Training pipeline failed.")
         raise

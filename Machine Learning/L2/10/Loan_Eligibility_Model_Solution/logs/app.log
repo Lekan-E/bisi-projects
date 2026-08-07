@@ -27,3 +27,64 @@
 2026-08-05 20:01:11,635 - INFO - __main__ - Model and scaler loaded successfully.
 2026-08-05 20:01:11,648 - INFO - __main__ - User query received: Gender=Male, Married=No, Dependents=3+, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=3000, LoanAmount=7000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Rural
 2026-08-05 20:01:11,658 - INFO - __main__ - Prediction result: 1
+2026-08-07 10:25:56,799 - INFO - __main__ - Starting training pipeline.
+2026-08-07 10:25:56,812 - INFO - __main__ - Loaded and preprocessed 614 rows from data/raw/credit.csv.
+2026-08-07 10:25:56,958 - INFO - __main__ - Model training complete.
+2026-08-07 10:25:57,202 - INFO - __main__ - Accuracy: 0.7398373983739838
+2026-08-07 10:25:57,202 - INFO - __main__ - Confusion Matrix:
+[[19 19]
+ [13 72]]
+2026-08-07 10:27:04,504 - INFO - __main__ - Starting training pipeline.
+2026-08-07 10:27:04,517 - INFO - __main__ - Loaded and preprocessed 614 rows from data/raw/credit.csv.
+2026-08-07 10:27:04,671 - INFO - __main__ - Model training complete.
+2026-08-07 10:27:04,926 - INFO - __main__ - Accuracy: 0.7560975609756098
+2026-08-07 10:27:04,926 - INFO - __main__ - Confusion Matrix:
+[[16 22]
+ [ 8 77]]
+2026-08-07 10:52:10,536 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 10:52:33,015 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 10:52:33,023 - INFO - __main__ - User query received: Gender=Female, Married=Yes, Dependents=1, Education=Graduate, Self_Employed=No, ApplicantIncome=4000, CoapplicantIncome=4000, LoanAmount=3000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-07 10:52:33,037 - INFO - __main__ - Prediction result: 1
+2026-08-07 10:52:36,494 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 10:52:36,501 - INFO - __main__ - User query received: Gender=Female, Married=Yes, Dependents=1, Education=Graduate, Self_Employed=No, ApplicantIncome=4000, CoapplicantIncome=4000, LoanAmount=3000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 10:52:36,513 - INFO - __main__ - Prediction result: 0
+2026-08-07 10:53:00,846 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 10:53:00,853 - INFO - __main__ - User query received: Gender=Female, Married=Yes, Dependents=1, Education=Graduate, Self_Employed=No, ApplicantIncome=9000, CoapplicantIncome=4000, LoanAmount=2000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 10:53:00,864 - INFO - __main__ - Prediction result: 0
+2026-08-07 10:59:17,822 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:18,116 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:18,121 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=0, LoanAmount=0, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-07 11:00:18,143 - INFO - __main__ - Prediction result: 1 (approval probability: 0.8550)
+2026-08-07 11:00:22,527 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:22,531 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=0, LoanAmount=0, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:00:22,555 - INFO - __main__ - Prediction result: 0 (approval probability: 0.1800)
+2026-08-07 11:00:28,519 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:28,523 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=0, LoanAmount=3000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:00:28,545 - INFO - __main__ - Prediction result: 0 (approval probability: 0.2400)
+2026-08-07 11:00:47,063 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:47,069 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=3000, CoapplicantIncome=3000, LoanAmount=3000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:00:47,092 - INFO - __main__ - Prediction result: 0 (approval probability: 0.2750)
+2026-08-07 11:00:52,164 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:52,168 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=3000, LoanAmount=3000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:00:52,181 - INFO - __main__ - Prediction result: 0 (approval probability: 0.2700)
+2026-08-07 11:00:58,371 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:00:58,376 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=3000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:00:58,399 - INFO - __main__ - Prediction result: 0 (approval probability: 0.2450)
+2026-08-07 11:01:03,922 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:01:03,929 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=1000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:01:03,953 - INFO - __main__ - Prediction result: 0 (approval probability: 0.2450)
+2026-08-07 11:01:04,973 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:01:04,978 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=1000, Loan_Amount_Term=360, Credit_History=0, Property_Area=Urban
+2026-08-07 11:01:04,999 - INFO - __main__ - Prediction result: 0 (approval probability: 0.2450)
+2026-08-07 11:01:09,292 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:01:09,296 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=1000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-07 11:01:09,318 - INFO - __main__ - Prediction result: 1 (approval probability: 0.7100)
+2026-08-07 11:01:14,825 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:01:14,829 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-07 11:01:14,853 - INFO - __main__ - Prediction result: 1 (approval probability: 0.7100)
+2026-08-07 11:01:15,675 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:01:15,682 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=4000, Loan_Amount_Term=360, Credit_History=1, Property_Area=Urban
+2026-08-07 11:01:15,704 - INFO - __main__ - Prediction result: 1 (approval probability: 0.7100)
+2026-08-07 11:01:22,621 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:01:22,628 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=4000, Loan_Amount_Term=180, Credit_History=1, Property_Area=Urban
+2026-08-07 11:01:22,653 - INFO - __main__ - Prediction result: 1 (approval probability: 0.7750)

@@ -1,0 +1,34 @@
+2026-08-07 10:22:44,239 - INFO - __main__ - Starting training pipeline.
+2026-08-07 10:22:44,243 - INFO - __main__ - Loaded and preprocessed 1879 rows from data/raw/house.csv.
+2026-08-07 10:22:52,709 - INFO - __main__ - Model training complete.
+2026-08-07 10:22:52,726 - INFO - __main__ - Linear Regression MAE: 93156.25
+2026-08-07 10:22:52,726 - INFO - __main__ - Random Forest MAE: 48218.31
+2026-08-07 10:34:23,951 - ERROR - streamlit - Failed to load model.
+Traceback (most recent call last):
+  File "/Users/lekan/Documents/GitHub/bisi-projects/Machine Learning/L2/9/Real_Estate_Solution/streamlit.py", line 12, in <module>
+    with open('models/RFmodel.pkl', 'rb') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'models/RFmodel.pkl'
+2026-08-07 10:36:46,409 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:37:04,201 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:37:42,500 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:37:42,504 - INFO - __main__ - User query received: YearBuilt=2002, YearSold=2011, PropertyType=Condo, Basement=Yes, Beds=1, Baths=2, Sqft=1600, LotSize=5200, PropertyTax=500, Insurance=140
+2026-08-07 10:37:42,517 - INFO - __main__ - Prediction result: 490825.11
+2026-08-07 10:45:18,030 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:45:20,878 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:45:20,882 - INFO - __main__ - User query received: YearBuilt=1982, YearSold=2007, PropertyType=Bungalow, Basement=Yes, Beds=3, Baths=3, Sqft=1500, LotSize=5000, PropertyTax=450, Insurance=140
+2026-08-07 10:45:20,895 - INFO - __main__ - Prediction result: 499882.36
+2026-08-07 10:48:42,308 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:48:46,977 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:49:13,257 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:49:13,260 - INFO - __main__ - User query received: YearBuilt=1994, YearSold=2013, PropertyType=Condo, Basement=No, Beds=2, Baths=3, Sqft=1650, LotSize=5300, PropertyTax=470, Insurance=140
+2026-08-07 10:49:13,272 - INFO - __main__ - Prediction result: 514173.14
+2026-08-07 10:49:18,918 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:49:18,923 - INFO - __main__ - User query received: YearBuilt=1994, YearSold=2013, PropertyType=Condo, Basement=No, Beds=2, Baths=3, Sqft=1650, LotSize=5300, PropertyTax=440, Insurance=140
+2026-08-07 10:49:18,937 - INFO - __main__ - Prediction result: 472575.35
+2026-08-07 10:49:22,113 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:49:22,115 - INFO - __main__ - User query received: YearBuilt=1994, YearSold=2013, PropertyType=Condo, Basement=No, Beds=2, Baths=3, Sqft=1650, LotSize=5300, PropertyTax=440, Insurance=180
+2026-08-07 10:49:22,126 - INFO - __main__ - Prediction result: 564942.515
+2026-08-07 10:49:28,905 - INFO - __main__ - Model loaded successfully.
+2026-08-07 10:49:28,908 - INFO - __main__ - User query received: YearBuilt=1994, YearSold=2013, PropertyType=Condo, Basement=No, Beds=2, Baths=3, Sqft=1650, LotSize=5300, PropertyTax=440, Insurance=100
+2026-08-07 10:49:28,920 - INFO - __main__ - Prediction result: 320084.3

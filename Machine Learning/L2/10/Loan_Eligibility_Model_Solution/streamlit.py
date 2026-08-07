@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 from logger import get_logger
 logger = get_logger(__name__)
 
-# Load pretrained model and the scaler used at training time
+# Load pretrained model and the scaler used fr training 
 try:
     with open('models/RFmodel.pkl', 'rb') as file:
         rf_model = pickle.load(file)
@@ -18,7 +18,7 @@ try:
     logger.info("Model and scaler loaded successfully.")
 except Exception:
     logger.exception("Failed to load model or scaler.")
-    st.error("The prediction model could not be loaded. Please contact the app administrator.")
+    st.error("The prediction model could not be loaded.")
     st.stop()
 
 st.title("Credit Loan Eligibility Predictor")
@@ -129,14 +129,32 @@ if submitted:
 
         # Make prediction
         new_prediction = rf_model.predict(prediction_input_scaled)
-        logger.info("Prediction result: %s", new_prediction[0])
+        approval_probability = rf_model.predict_proba(prediction_input_scaled)[0][1]
+        logger.info("Prediction result: %s (approval probability: %.4f)", new_prediction[0], approval_probability)
 
         # Display result
         st.subheader("Prediction Result:")
         if new_prediction[0] == 1:
-            st.write("You are eligible for the loan!🎉")
+            st.success("You are eligible for the loan! 🎉")
         else:
-            st.write("Sorry, you are not eligible for the loan.🚫")
+            st.error("Sorry, you are not eligible for the loan. 🚫")
+        st.metric("Estimated Approval Probability", f"{approval_probability:.0%}")
+
+        # Echo back the submitted details so the user can confirm what was predicted on
+        st.subheader("Submitted Applicant Details:")
+        submitted_details = pd.DataFrame({
+            "Field": [
+                "Gender", "Marital Status", "Dependents", "Education Level",
+                "Self Employed", "Applicant Monthly Income", "Coapplicant Monthly Income",
+                "Loan Amount", "Loan Amount Term (Months)", "Credit History", "Property Area",
+            ],
+            "Value": [
+                Gender, Married, Dependents, Education, Self_Employed,
+                f"{ApplicantIncome:,}", f"{CoapplicantIncome:,}", f"{LoanAmount:,}",
+                str(Loan_Amount_Term), str(Credit_History), Property_Area,
+            ],
+        })
+        st.table(submitted_details.set_index("Field"))
     except Exception:
         logger.exception("Prediction failed for the submitted query.")
         st.error("Something went wrong while making the prediction. Please check your inputs and try again.")

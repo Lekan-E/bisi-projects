@@ -5,3 +5,59 @@
 2026-07-21 17:59:25,688 - INFO - __main__ - Confusion Matrix:
 [[64  5]
  [ 4 27]]
+2026-08-07 11:23:17,912 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:23:40,563 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:23:40,566 - INFO - __main__ - User query received: GRE_Score=336, TOEFL_Score=100, University_Rating=3, SOP=3.5, LOR=3.5, CGPA=8.0, Research=Yes
+2026-08-07 11:23:40,571 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0161)
+2026-08-07 11:24:01,764 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:24:01,769 - INFO - __main__ - User query received: GRE_Score=336, TOEFL_Score=100, University_Rating=3, SOP=3.5, LOR=3.5, CGPA=9.5, Research=Yes
+2026-08-07 11:24:01,772 - INFO - __main__ - Prediction result: 0 (admit probability: 0.3776)
+2026-08-07 11:26:15,587 - INFO - __main__ - Starting training pipeline.
+2026-08-07 11:26:15,589 - INFO - __main__ - Loaded and preprocessed 500 rows from data/raw/Admission.csv.
+2026-08-07 11:26:15,721 - INFO - __main__ - Model training complete.
+2026-08-07 11:26:15,722 - INFO - __main__ - Accuracy: 0.91
+2026-08-07 11:26:15,722 - INFO - __main__ - Confusion Matrix:
+[[64  5]
+ [ 4 27]]
+2026-08-07 11:28:26,219 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:32:53,720 - INFO - __main__ - Starting training pipeline.
+2026-08-07 11:32:53,723 - INFO - __main__ - Loaded and preprocessed 500 rows from data/raw/Admission.csv.
+2026-08-07 11:32:53,852 - INFO - __main__ - Model training complete.
+2026-08-07 11:32:53,853 - INFO - __main__ - Accuracy: 0.91
+2026-08-07 11:32:53,853 - INFO - __main__ - Confusion Matrix:
+[[64  5]
+ [ 4 27]]
+2026-08-07 11:33:42,219 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:33:44,326 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:33:44,332 - INFO - __main__ - User query received: GRE_Score=310, TOEFL_Score=100, University_Rating=1, SOP=3.0, LOR=3.0, CGPA=8.0, Research=Yes
+2026-08-07 11:33:44,335 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0003)
+2026-08-07 11:36:49,032 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:36:49,037 - INFO - __main__ - User query received: GRE_Score=310, TOEFL_Score=100, University_Rating=1, SOP=3.0, LOR=3.0, CGPA=8.3, Research=Yes
+2026-08-07 11:36:49,041 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0005)
+2026-08-07 11:36:57,946 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:36:57,951 - INFO - __main__ - User query received: GRE_Score=310, TOEFL_Score=100, University_Rating=4, SOP=3.0, LOR=3.0, CGPA=8.3, Research=Yes
+2026-08-07 11:36:57,954 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0204)
+2026-08-07 11:37:05,424 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:05,427 - INFO - __main__ - User query received: GRE_Score=310, TOEFL_Score=100, University_Rating=4, SOP=4.5, LOR=4.5, CGPA=8.3, Research=Yes
+2026-08-07 11:37:05,430 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0316)
+2026-08-07 11:37:13,395 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:13,400 - INFO - __main__ - User query received: GRE_Score=310, TOEFL_Score=100, University_Rating=4, SOP=4.5, LOR=4.5, CGPA=8.2, Research=Yes
+2026-08-07 11:37:13,403 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0250)
+2026-08-07 11:37:16,870 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:16,874 - INFO - __main__ - User query received: GRE_Score=310, TOEFL_Score=100, University_Rating=4, SOP=5.0, LOR=5.0, CGPA=8.2, Research=Yes
+2026-08-07 11:37:16,877 - INFO - __main__ - Prediction result: 0 (admit probability: 0.0286)
+2026-08-07 11:37:29,741 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:29,745 - INFO - __main__ - User query received: GRE_Score=320, TOEFL_Score=100, University_Rating=5, SOP=5.0, LOR=5.0, CGPA=8.2, Research=Yes
+2026-08-07 11:37:29,748 - INFO - __main__ - Prediction result: 0 (admit probability: 0.1978)
+2026-08-07 11:37:35,709 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:35,714 - INFO - __main__ - User query received: GRE_Score=320, TOEFL_Score=100, University_Rating=5, SOP=5.0, LOR=5.0, CGPA=8.2, Research=Yes
+2026-08-07 11:37:35,717 - INFO - __main__ - Prediction result: 0 (admit probability: 0.1978)
+2026-08-07 11:37:36,658 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:36,662 - INFO - __main__ - User query received: GRE_Score=320, TOEFL_Score=110, University_Rating=5, SOP=5.0, LOR=5.0, CGPA=8.2, Research=Yes
+2026-08-07 11:37:36,665 - INFO - __main__ - Prediction result: 1 (admit probability: 0.6762)
+2026-08-07 11:37:43,894 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:43,899 - INFO - __main__ - User query received: GRE_Score=320, TOEFL_Score=110, University_Rating=5, SOP=5.0, LOR=5.0, CGPA=8.2, Research=No
+2026-08-07 11:37:43,901 - INFO - __main__ - Prediction result: 0 (admit probability: 0.1322)
+2026-08-07 11:37:46,546 - INFO - __main__ - Model and scaler loaded successfully.
+2026-08-07 11:37:46,550 - INFO - __main__ - User query received: GRE_Score=320, TOEFL_Score=110, University_Rating=5, SOP=5.0, LOR=5.0, CGPA=8.2, Research=Yes
+2026-08-07 11:37:46,553 - INFO - __main__ - Prediction result: 1 (admit probability: 0.6762)

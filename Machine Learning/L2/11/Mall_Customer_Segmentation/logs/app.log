@@ -82,3 +82,31 @@ Cluster
 2026-08-05 20:04:38,191 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
 2026-08-05 20:04:38,201 - INFO - __main__ - User query received: Age=30, Annual_Income=70, Spending_Score=63
 2026-08-05 20:04:38,204 - INFO - __main__ - Prediction result: Cluster=1
+2026-08-07 11:17:02,157 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:17:06,008 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:17:06,019 - INFO - __main__ - User query received: Age=30, Annual_Income=60, Spending_Score=50
+2026-08-07 11:17:06,021 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:19:14,558 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:19:14,569 - INFO - __main__ - User query received: Age=24, Annual_Income=60, Spending_Score=50
+2026-08-07 11:19:14,571 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:19:21,376 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:19:21,386 - INFO - __main__ - User query received: Age=18, Annual_Income=60, Spending_Score=50
+2026-08-07 11:19:21,388 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:19:26,571 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:19:26,579 - INFO - __main__ - User query received: Age=10, Annual_Income=60, Spending_Score=50
+2026-08-07 11:19:26,582 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:19:29,820 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:19:29,840 - INFO - __main__ - User query received: Age=10, Annual_Income=56, Spending_Score=50
+2026-08-07 11:19:29,842 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:19:37,307 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:19:37,315 - INFO - __main__ - User query received: Age=11, Annual_Income=47, Spending_Score=50
+2026-08-07 11:19:37,318 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:21:36,678 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:21:36,688 - INFO - __main__ - User query received: Age=11, Annual_Income=60, Spending_Score=50
+2026-08-07 11:21:36,690 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:21:46,183 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:21:46,192 - INFO - __main__ - User query received: Age=11, Annual_Income=64, Spending_Score=50
+2026-08-07 11:21:46,194 - INFO - __main__ - Prediction result: Cluster=3
+2026-08-07 11:21:47,786 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
+2026-08-07 11:21:47,797 - INFO - __main__ - User query received: Age=11, Annual_Income=100, Spending_Score=50
+2026-08-07 11:21:47,799 - INFO - __main__ - Prediction result: Cluster=1

@@ -81,15 +81,25 @@ if submitted:
         # Display result
         st.subheader("Prediction Result:")
         if new_prediction[0] == 1:
-            st.write(f"You are likely to be admitted! Estimated admission chance: {admit_probability:.0%}")
+            st.success("You are likely to be admitted! 🎉")
         else:
-            st.write(f"You are unlikely to be admitted. Estimated admission chance: {admit_probability:.0%}")
+            st.error("You are unlikely to be admitted. 🚫")
+        st.metric("Estimated Admission Chance", f"{admit_probability:.0%}")
+
+        # Echo back the submitted details so the user can confirm what was predicted on
+        st.subheader("Submitted Applicant Profile:")
+        submitted_details = pd.DataFrame({
+            "Field": [
+                "GRE Score", "TOEFL Score", "Bachelor's University Rating",
+                "Statement of Purpose Strength", "Letter of Recommendation Strength",
+                "Undergraduate CGPA", "Research Experience",
+            ],
+            "Value": [
+                str(GRE_Score), str(TOEFL_Score), University_Rating,
+                str(SOP), str(LOR), str(CGPA), Research,
+            ],
+        })
+        st.table(submitted_details.set_index("Field"))
     except Exception:
         logger.exception("Prediction failed for the submitted query.")
         st.error("Something went wrong while making the prediction. Please check your inputs and try again.")
-
-st.write(
-    """We used a neural network (MLPClassifier) model to predict your admission chance. The chart
-    below shows how the model's training loss decreased over training iterations."""
-)
-st.image("loss_curve.png")

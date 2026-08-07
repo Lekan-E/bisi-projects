@@ -27,7 +27,7 @@ try:
     logger.info("Model, scaler, and customer data loaded successfully.")
 except Exception:
     logger.exception("Failed to load model, scaler, or customer data.")
-    st.error("The segmentation model could not be loaded. Please contact the app administrator.")
+    st.error("The segmentation model could not be loaded.")
     st.stop()
 
 # Describe each segment relative to the customer base's median income/spending, plus its
@@ -78,10 +78,16 @@ if submitted:
         profile = cluster_profile.loc[cluster]
 
         st.subheader("Prediction Result:")
-        st.write(
-            f"This customer belongs to **Cluster {cluster}**: {profile['Segment']} "
-            f"(segment average age: {profile['Age']:.0f})"
-        )
+        st.metric(f"Cluster {cluster}", profile['Segment'])
+        st.caption(f"Segment average age: {profile['Age']:.0f}")
+
+        # Echo back the submitted details so the user can confirm what was predicted on
+        st.subheader("Submitted Customer Details:")
+        submitted_details = pd.DataFrame({
+            "Field": ["Age", "Annual Income (in $1,000s)", "Spending Score (1-100)"],
+            "Value": [str(Age), str(Annual_Income), str(Spending_Score)],
+        })
+        st.table(submitted_details.set_index("Field"))
 
         # Redraw the segment plot with this customer's point highlighted, so the chart
         # reflects the input just submitted rather than a static pre-rendered image
