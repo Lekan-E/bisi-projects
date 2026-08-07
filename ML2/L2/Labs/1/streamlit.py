@@ -1,8 +1,11 @@
+import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pickle
 import streamlit as st
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Set the page title and description
 st.title("Credit Loan Eligibility Predictor")
@@ -18,7 +21,7 @@ based on various personal and financial characteristics.
 #     st.stop()
 
 # Load the pre-trained model
-rf_pickle = open("models/RFmodel.pkl", "rb")
+rf_pickle = open(os.path.join(BASE_DIR, "models", "RFmodel.pkl"), "rb")
 rf_model = pickle.load(rf_pickle)
 rf_pickle.close()
 
@@ -126,4 +129,4 @@ st.write(
     """We used a machine learning (Random Forest) model to predict your eligibility, the features used in this prediction are ranked by relative
     importance below."""
 )
-st.image("feature_importance.png")
+st.image(os.path.join(BASE_DIR, "feature_importance.png"))

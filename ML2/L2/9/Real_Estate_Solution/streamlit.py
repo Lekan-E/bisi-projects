@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import pickle
 import streamlit as st
@@ -6,17 +7,18 @@ warnings.filterwarnings("ignore", category=UserWarning)
 from logger import get_logger
 logger = get_logger(__name__)
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Load the trained model
 try:
-    with open('models/RFmodel.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'RFmodel.pkl'), 'rb') as file:
         rf_model = pickle.load(file)
 
     logger.info("Model loaded successfully.")
     
 except Exception:
     logger.exception("Failed to load model.")
-    st.error("The prediction model could not be loaded. Please contact the app administrator.")
+    st.error("The prediction model could not be loaded.")
     st.stop()
 
 st.title("House Price Prediction")
@@ -127,4 +129,4 @@ st.write(
     """We used a machine learning (Random Forest) model to predict this price. The chart below
     shows the model's overall feature importance (learned from the training data)."""
 )
-st.image("feature_importance.png")
+st.image(os.path.join(BASE_DIR, "feature_importance.png"))

@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import pickle
 import streamlit as st
@@ -7,12 +8,14 @@ warnings.filterwarnings("ignore", category=UserWarning)
 from logger import get_logger
 logger = get_logger(__name__)
 
-# Load pretrained model and the scaler used fr training 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Load pretrained model and the scaler used fr training
 try:
-    with open('models/RFmodel.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'RFmodel.pkl'), 'rb') as file:
         rf_model = pickle.load(file)
 
-    with open('models/scaler.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'scaler.pkl'), 'rb') as file:
         scaler = pickle.load(file)
 
     logger.info("Model and scaler loaded successfully.")
@@ -163,4 +166,4 @@ st.write(
     """We used a machine learning (Random Forest) model to predict your eligibility. The chart below shows the
     model's overall feature importance (learned from the training data)."""
 )
-st.image("feature_importance.png")
+st.image(os.path.join(BASE_DIR, "feature_importance.png"))

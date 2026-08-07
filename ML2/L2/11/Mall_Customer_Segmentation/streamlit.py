@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import pickle
 import matplotlib.pyplot as plt
@@ -9,18 +10,20 @@ warnings.filterwarnings("ignore", category=UserWarning)
 from logger import get_logger
 logger = get_logger(__name__)
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 FEATURE_COLS = ['Age', 'Annual_Income', 'Spending_Score']
 
 # Load the trained clustering model, the scaler used to prepare its input, and the
 # customer data the model was trained on
 try:
-    with open('models/KMeansmodel.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'KMeansmodel.pkl'), 'rb') as file:
         kmeans_model = pickle.load(file)
 
-    with open('models/scaler.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'scaler.pkl'), 'rb') as file:
         scaler = pickle.load(file)
 
-    df = pd.read_csv('data/processed/Processed_Mall_Customers.csv')
+    df = pd.read_csv(os.path.join(BASE_DIR, 'data', 'processed', 'Processed_Mall_Customers.csv'))
     X_scaled = scaler.transform(df[FEATURE_COLS])
     df['Cluster'] = kmeans_model.predict(X_scaled)
 

@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import pickle
 import streamlit as st
@@ -7,16 +8,18 @@ warnings.filterwarnings("ignore", category=UserWarning)
 from logger import get_logger
 logger = get_logger(__name__)
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 FEATURE_COLS = ['GRE_Score', 'TOEFL_Score', 'SOP', 'LOR', 'CGPA',
                 'University_Rating_1', 'University_Rating_2', 'University_Rating_3',
                 'University_Rating_4', 'University_Rating_5', 'Research_0', 'Research_1']
 
 # Load the trained model and the scaler used to prepare its input
 try:
-    with open('models/MLPmodel.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'MLPmodel.pkl'), 'rb') as file:
         mlp_model = pickle.load(file)
 
-    with open('models/scaler.pkl', 'rb') as file:
+    with open(os.path.join(BASE_DIR, 'models', 'scaler.pkl'), 'rb') as file:
         scaler = pickle.load(file)
 
     logger.info("Model and scaler loaded successfully.")
