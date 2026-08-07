@@ -32,3 +32,7 @@ FileNotFoundError: [Errno 2] No such file or directory: 'models/RFmodel.pkl'
 2026-08-07 10:49:28,905 - INFO - __main__ - Model loaded successfully.
 2026-08-07 10:49:28,908 - INFO - __main__ - User query received: YearBuilt=1994, YearSold=2013, PropertyType=Condo, Basement=No, Beds=2, Baths=3, Sqft=1650, LotSize=5300, PropertyTax=440, Insurance=100
 2026-08-07 10:49:28,920 - INFO - __main__ - Prediction result: 320084.3
+2026-08-07 12:14:45,768 - INFO - __main__ - Model loaded successfully.
+2026-08-07 12:16:23,135 - INFO - __main__ - Model loaded successfully.
+2026-08-07 12:16:23,146 - INFO - __main__ - User query received: YearBuilt=1982, YearSold=2007, PropertyType=Bungalow, Basement=Yes, Beds=3, Baths=3, Sqft=1500, LotSize=5000, PropertyTax=450, Insurance=140
+2026-08-07 12:16:23,164 - INFO - __main__ - Prediction result: 499882.36
