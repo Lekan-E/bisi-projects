@@ -2,6 +2,9 @@
 
 Unsupervised K-Means clustering model that segments mall customers by annual income and spending score.
 
+## Streamlit App
+Link  - https://lekan-e-bisi--ml2l211mall-customer-segmentationstreamlit-smstyl.streamlit.app/
+
 ## Project structure
 
 ```

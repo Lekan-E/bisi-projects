@@ -2,6 +2,11 @@
 
 Neural network (MLPClassifier) that predicts whether a student is likely to be admitted to UCLA's Master's program.
 
+
+## Streamlit App
+Link  - https://lekan-e-bisi-proj-ml2l212admission-chances-uclastreamlit-rnefyb.streamlit.app/
+
+
 ## Project structure
 
 ```

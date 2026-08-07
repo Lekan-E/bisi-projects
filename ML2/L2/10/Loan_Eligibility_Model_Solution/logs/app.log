@@ -88,3 +88,4 @@
 2026-08-07 11:01:22,621 - INFO - __main__ - Model and scaler loaded successfully.
 2026-08-07 11:01:22,628 - INFO - __main__ - User query received: Gender=Male, Married=Yes, Dependents=0, Education=Graduate, Self_Employed=Yes, ApplicantIncome=10000, CoapplicantIncome=1000, LoanAmount=4000, Loan_Amount_Term=180, Credit_History=1, Property_Area=Urban
 2026-08-07 11:01:22,653 - INFO - __main__ - Prediction result: 1 (approval probability: 0.7750)
+2026-08-07 12:38:00,319 - INFO - __main__ - Model and scaler loaded successfully.

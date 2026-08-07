@@ -61,3 +61,4 @@
 2026-08-07 11:37:46,546 - INFO - __main__ - Model and scaler loaded successfully.
 2026-08-07 11:37:46,550 - INFO - __main__ - User query received: GRE_Score=320, TOEFL_Score=110, University_Rating=5, SOP=5.0, LOR=5.0, CGPA=8.2, Research=Yes
 2026-08-07 11:37:46,553 - INFO - __main__ - Prediction result: 1 (admit probability: 0.6762)
+2026-08-07 12:41:32,564 - INFO - __main__ - Model and scaler loaded successfully.

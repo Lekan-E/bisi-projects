@@ -3,6 +3,9 @@
 Random Forest classifier that predicts whether a loan applicant is eligible for a loan based on
 their personal and financial characteristics.
 
+## Streamlit App
+Link  - https://lekan-e-ml2l210loan-eligibility-model-solutionstreamlit-wxrufw.streamlit.app/
+
 ## Project structure
 
 ```

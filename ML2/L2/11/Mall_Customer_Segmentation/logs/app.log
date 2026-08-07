@@ -110,3 +110,4 @@ Cluster
 2026-08-07 11:21:47,786 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
 2026-08-07 11:21:47,797 - INFO - __main__ - User query received: Age=11, Annual_Income=100, Spending_Score=50
 2026-08-07 11:21:47,799 - INFO - __main__ - Prediction result: Cluster=1
+2026-08-07 12:39:40,537 - INFO - __main__ - Model, scaler, and customer data loaded successfully.
